@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ansiart 公式ホームページ</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  .container { max-width: 800px; margin: auto; }
+  h1, h2 { color: #333366; }
+  p, li { color: #333; }
+  code { background-color: #f4f4f4; padding: 2px 4px; }
+  .code-block { background-color: #f4f4f4; padding: 10px; margin: 10px 0; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>ansiart</h1>
+  <p>ansiartは、画像をANSIエスケープシーケンスを用いた文字アートに変換し、コマンドラインインターフェース(CLI)に出力するPythonライブラリです。</p>
+
+  <h2>概要</h2>
+  <p>また、ANSIエスケープシーケンスをテキストファイルに保存・読み込みする機能も提供します。<br>デフォルトではTrue colorになっているため、適宜<strong>truecolor_to_256color</strong>関数を用いて変換してください。</p>
+
+  <h2>インストール方法</h2>
+  <div class="code-block">
+    <code>pip install ansiart</code>
+  </div>
+
+  <h2>提供する関数の一覧</h2>
+  <ul>
+    <li>image_to_ansi</li>
+    <li>save_ansi_art</li>
+    <li>load_ansi_art</li>
+    <li>truecolor_to_256color</li>
+  </ul>
+
+  <h2>使用方法</h2>
+  <p>詳細な使用方法については、GitHubのリポジトリをご参照ください。</p>
+  <div class="code-block">
+    <a href="https://github.com/Kokecoco/ansiart">ansiart GitHub リポジトリ</a>
+  </div>
+
+  <h2>ライセンス</h2>
+  <p>このプロジェクトはMITライセンスの下で公開されています。詳細はGitHubのLICENSEファイルを参照してください。</p>
+  <div class="code-block">
+    <a href="https://github.com/Kokecoco/ansiart/blob/main/LICENSE">LICENSEファイル</a>
+  </div>
+</div>
+</body>
+</html>
