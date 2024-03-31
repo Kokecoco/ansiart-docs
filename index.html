@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ansiart 公式ホームページ</title>
+<title>ansiart Official Homepage</title>
 <style>
   body { font-family: Arial, sans-serif; margin: 20px; }
   .container { max-width: 800px; margin: auto; }
@@ -11,22 +11,23 @@
   p, li { color: #333; }
   code { background-color: #f4f4f4; padding: 2px 4px; }
   .code-block { background-color: #f4f4f4; padding: 10px; margin: 10px 0; }
+  a { color: #1a0dab; }
 </style>
 </head>
 <body>
 <div class="container">
+  <p>For the Japanese version of this page, click <a href="/ja/">here</a>.</p>
   <h1>ansiart</h1>
-  <p>ansiartは、画像をANSIエスケープシーケンスを用いた文字アートに変換し、コマンドラインインターフェース(CLI)に出力するPythonライブラリです。</p>
+  <p>ansiart is a Python library that converts images into text art using ANSI escape sequences, for output in Command Line Interfaces (CLI).</p>
 
-  <h2>概要</h2>
-  <p>また、ANSIエスケープシーケンスをテキストファイルに保存・読み込みする機能も提供します。<br>デフォルトではTrue colorになっているため、適宜<strong>truecolor_to_256color</strong>関数を用いて変換してください。</p>
+  <p>This tool also supports saving and loading of ANSI escape sequences as text files. By default, it uses True color; use the <strong>truecolor_to_256color</strong> function as needed for conversion.</p>
 
-  <h2>インストール方法</h2>
+  <h2>Installation</h2>
   <div class="code-block">
     <code>pip install ansiart</code>
   </div>
 
-  <h2>提供する関数の一覧</h2>
+  <h2>Available Functions</h2>
   <ul>
     <li>image_to_ansi</li>
     <li>save_ansi_art</li>
@@ -34,17 +35,18 @@
     <li>truecolor_to_256color</li>
   </ul>
 
-  <h2>使用方法</h2>
-  <p>詳細な使用方法については、GitHubのリポジトリをご参照ください。</p>
+  <h2>Usage</h2>
+  <p>For detailed usage instructions, please refer to the GitHub repository.</p>
   <div class="code-block">
-    <a href="https://github.com/Kokecoco/ansiart">ansiart GitHub リポジトリ</a>
+    <a href="https://github.com/Kokecoco/ansiart">ansiart GitHub Repository</a>
   </div>
 
-  <h2>ライセンス</h2>
-  <p>このプロジェクトはMITライセンスの下で公開されています。詳細はGitHubのLICENSEファイルを参照してください。</p>
+  <h2>License</h2>
+  <p>This project is released under the MIT License. For more details, see the LICENSE file on GitHub.</p>
   <div class="code-block">
-    <a href="https://github.com/Kokecoco/ansiart/blob/main/LICENSE">LICENSEファイル</a>
+    <a href="https://github.com/Kokecoco/ansiart/blob/main/LICENSE">LICENSE file</a>
   </div>
+  
 </div>
 </body>
 </html>
